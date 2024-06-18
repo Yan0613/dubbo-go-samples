@@ -28,7 +28,7 @@ import (
 
 func main() {
 	ins, err := dubbo.NewInstance(
-		dubbo.WithName("emailservice"),
+		dubbo.WithName("paymentservice"),
 		dubbo.WithRegistry(
 			registry.WithZookeeper(),
 			registry.WithAddress("127.0.0.1:2181"),
